@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyn - Poemas y Cartas de Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            color: #4682b4;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        section h2 {
+            color: #4682b4;
+            border-bottom: 2px solid #4682b4;
+            padding-bottom: 0.5em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4682b4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poemas y Cartas de Amor de Lyn</h1>
+    </header>
+    <nav>
+        <a href="#poemas">Poemas</a>
+        <a href="#cartas">Cartas de Amor</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="poemas">
+            <h2>Poemas</h2>
+            <p>Bienvenidos a mi colección de poemas. Aquí comparto mis pensamientos y emociones a través de la poesía.</p>
+            <!-- Agrega aquí tus poemas -->
+            <article>
+                <h3>Poema 1</h3>
+                <p>Aquí va el contenido del primer poema...</p>
+            </article>
+            <article>
+                <h3>Poema 2</h3>
+                <p>Aquí va el contenido del segundo poema...</p>
+            </article>
+        </section>
+        <section id="cartas">
+            <h2>Cartas de Amor</h2>
+            <p>Las cartas de amor son una ventana a mi corazón. Espero que disfruten leyendo mis sentimientos más profundos.</p>
+            <!-- Agrega aquí tus cartas de amor -->
+            <article>
+                <h3>Carta de Amor 1</h3>
+                <p>Aquí va el contenido de la primera carta de amor...</p>
+            </article>
+            <article>
+                <h3>Carta de Amor 2</h3>
+                <p>Aquí va el contenido de la segunda carta de amor...</p>
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a <a href="mailto:lyn@example.com">lyn@example.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lyn. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
